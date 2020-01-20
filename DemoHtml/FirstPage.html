@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color:aquamarine;">
+    <center>
+    <h1>USER REGISTRATION DETAILS</h1>
+    <h3>Please fill the following details and get registered!</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>details</th>
+                <th>Enter</th>
+            </tr>
+
+
+        </thead>
+        <tr>
+            <td>First name:</td>
+            <td><input type="text"disabled value="CTS" /></td>
+        </tr>
+        <tr>
+            <td>Last name:</td>
+            <td><input type="text"required pattern="[a-z]{3,10}" /></td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="number" /></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <select name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <input type="checkbox" name="State" />TamilNadu
+                <input type="checkbox" name="State" />Andhra Pradesh
+            </td>
+        </tr>
+        <tr>
+            <td>Country</td>
+
+            <td>
+                <fieldset>
+                    <legend>Country</legend>
+                    <input type="radio" name="Country" />India
+                    <input type="radio" name="Country" />America
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+    <br/><input id="button"type="submit"value="register me" />
+        </center>
+</body>
+</html>

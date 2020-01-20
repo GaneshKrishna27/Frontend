@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GridBootstrap", "GridBootstrap.vbproj", "{04953DA4-15F7-4CF7-BB42-72CFBEDECC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04953DA4-15F7-4CF7-BB42-72CFBEDECC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04953DA4-15F7-4CF7-BB42-72CFBEDECC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04953DA4-15F7-4CF7-BB42-72CFBEDECC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04953DA4-15F7-4CF7-BB42-72CFBEDECC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8253C90-F20A-490E-BA00-D31032F97838}
+	EndGlobalSection
+EndGlobal
